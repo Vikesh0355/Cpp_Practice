@@ -1,0 +1,13 @@
+# Ignore all files in src/ that do not have an extension
+/src/*
+!/src/*.cpp
+
+# Ignore temporary or backup files
+*~
+*.swp
+
+# Ignore object files and compiled binaries
+*.o
+*.out
+*.exe
+
